@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.sb{
+  width: 500px;
+  font-size: 16px;
+  line-height: 16px;
+  background: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+
+}
+.sb::before{
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 10%;
+  transform: translateX(-50%);
+  border: 25px solid transparent;
+  border-top: 25px solid #8f5a0a;
+}
+.sb::after{
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 10%;
+  transform: translateX(-50%);
+  border: 18px solid transparent;
+  border-top: 18px solid #fad296;
+
+
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+a{
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+header{
+  background-color: #388bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+
+}
+ul{
+  display: flex;
+}
+.header-logo a{
+  font-size: 24px;
+  font-weight: bold;
+  color: #f2ff7b;
+}
+
+

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+p{
+display: block;
+margin: 15px;
+}
+
+.button{
+  color: #fff;
+  display: flex;
+}
+.part{
+  margin-right: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.part:last-child{
+  margin-right: 0;
+}
+.red{
+  background-color:#fd0f0fd9;
+}
+.blue{
+  background-color: #170ffdd9;
+}
+.green{
+  background-color: #0ffd0fd9;
+  color: #000;
+}
+.red-shadow{
+  background-color:#fd0f0fd9;
+  box-shadow: 0 5px 1px 0 rgba(63, 5, 5, 0.851);
+  /* 左右　上下　ぼかし　大きさ　色 */
+}
+.blue-shadow{
+  background-color: #170ffdd9;
+  box-shadow: 0 5px 1px 0 rgba(5, 13, 63, 0.851);
+}
+
+.green-shadow{
+  background-color: #0ffd0fd9;
+  color: #000;
+  box-shadow: 0 5px 1px 0 rgba(5, 63, 5, 0.851);
+}
+
+.red-shadow-push{
+  background-color:#fd0f0fd9;
+  box-shadow: 0 5px 1px 0 rgba(63, 5, 5, 0.851);
+  /* 左右　上下　ぼかし　大きさ　色 */
+}
+.blue-shadow-push{
+  background-color: #170ffdd9;
+  box-shadow: 0 5px 1px 0 rgba(5, 13, 63, 0.851);
+}
+
+.green-shadow-push{
+  background-color: #0ffd0fd9;
+  color: #000;
+  box-shadow: 0 5px 1px 0 rgba(5, 63, 5, 0.851);
+}
+
+.red-shadow-push:active,.blue-shadow-push:active,.green-shadow-push:active{
+  box-shadow: none;
+  transform: translate(0,20%);
+}
+
+.one{
+  color: #67c5ff;
+  border: 4px double #67c5ff;
+}
+.one:hover{
+  background-color: #fffbef;
+}
+.two{
+  color: #67c5ff;
+  border: 4px dotted #75caff;
+}
+.three{
+  color: #0079a5f8;
+  background-color: #d0edfff8;
+  border: 4px dashed #67c5ff;
+}
+.three:hover{
+  color: #67c5ff;
+  background-color: #ffffff;
+}
