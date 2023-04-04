@@ -7,27 +7,22 @@
   border: solid 5px #8f5a0a;
   border-radius: 20px;
   position: relative;
-  display: inline-block;
   padding: 20px;
+  margin: 0 auto;
 
 }
-.sb::before{
+.sb::before,.sb::after{
   position: absolute;
   content: "";
   top: 100%;
   left: 10%;
   transform: translateX(-50%);
+}
+.sb::before{
   border: 25px solid transparent;
   border-top: 25px solid #8f5a0a;
 }
 .sb::after{
-  position: absolute;
-  content: "";
-  top: 100%;
-  left: 10%;
-  transform: translateX(-50%);
   border: 18px solid transparent;
   border-top: 18px solid #fad296;
-
-
 }
