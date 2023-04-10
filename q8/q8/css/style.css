@@ -3,20 +3,23 @@
   background-image: url(../../image/coffee-background.jpg);
 }
 .back2{
-  background-image: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
+  /* background-image: url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat; */
+  background: url(../../image/coffee-background.jpg) no-repeat;
 }
 .back3{
-  background-image: url(../../image/coffee-background.jpg);
+  /* background-image: url(../../image/coffee-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  background: url(../../image/coffee-background.jpg) no-repeat center / cover;
 }
 .back4{
-  background-image: url(../../image/coffee-background.jpg);
+  /* background-image: url(../../image/coffee-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: contain; */
+  background: url(../../image/coffee-background.jpg) no-repeat center / contain;
 }
 .content{
   height: 500px;
